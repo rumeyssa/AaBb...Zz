@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+	/*
+		Program koji računa obim i površinu
+		pravougaonika, ako korisnik unosi dužine
+		stranica.
+	*/
+
+int main(){
+	
+int a,b,p,o;
+cout<<"Unesite str a: ";
+cin>>a;
+cout<<"Unesite str b: ";
+cin>>b;
+cout<<endl;
+
+p=a*b;
+cout<<"Povrsina pravougaonika je: "<<p<<endl;
+
+o=2*(a+b);  //o=2*a+2*b;
+cout<<"Obim pravougaonika je: "<<o<<endl;
+
+return 0;
+}

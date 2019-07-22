@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+	
+	int a,b;
+	cout<<"Unesite a: ";
+	cin>>a;
+	cout<<"Unesite b: ";
+	cin>>b;
+	
+	cout<<"Brojevi prije zamjene su "<<a<<" i "<<b<<endl;
+	
+	//___________________________________________________//
+	
+	int temp=a;
+	    a=b;
+     	b=temp;
+     	
+   	cout<<"Brojevi nakon zamjene su "<<a<<" i "<<b<<endl;
+
+	
+}

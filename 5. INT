@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+//Cjelobrojno dijeljenje
+//konstantne varijable
+//znastveni zapis broja
+
+
+int main(){
+	cout << 5/2;        //=2
+	int a = 4.7;
+	cout << endl;
+	cout << a;          //=4
+	int b = 3.9999999999999999;
+	cout << endl;
+	cout << b;         //=4
+	cout << endl;
+	cout << 3.456e+10; //3.456*(10^10)	
+	
+	return 0;
+}

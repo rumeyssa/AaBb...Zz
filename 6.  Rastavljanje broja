@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+/*
+  Računanje zbira znamenki unesenog četverocifrenog 
+  broja (pretpostavka da je uneseni broj 4cifreni)
+*/
+
+int main(){
+	int broj,a,b,c,d, r;
+	
+	cout<<"Unesite broj (4cifreni): ";
+	cin>>broj;
+	
+	a=broj/1000;
+	b=(broj-a*1000)/100;
+	c=(broj-a*1000-b*100)/10;
+	d=broj%10;
+	
+	r=(a+b+c+d);
+	cout<<"Zbir znamenki broja "<<broj<<" iznosi "<<r<<endl;
+}

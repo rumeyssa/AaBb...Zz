@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+
+int main(int argc, char** argv) {
+	int godine;
+	cout<<"Unesite vase godine: ";
+	cin>>godine;
+	
+	if(godine<18){
+		cout<<"Vi ste jos maloljetni."<<endl;
+	}else{
+		cout<<"Vi ste punoljetni."<<endl;
+	}
+	
+	return 0;
+}

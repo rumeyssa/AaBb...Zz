@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a,b,c,v;
+	cout<<"Unesite sirinu: ";
+	cin>>a;
+	cout<<"Unesite duzinu: ";
+	cin>>b;
+	cout<<"Unesite dubinu: ";
+	cin>>c;
+	v=a*b*c;
+	
+	cout<<endl;
+	cout<<"-Zapremina bazena iznosi "<<v<<"m3."<<endl;
+	cout<<"-Ukupna cijena vode iznosi "<<v*1.28<<"KM."<<endl;
+	cout<<"-Potrebno vrijeme za punjenje bazena iznosi "<<v*60<<"min."<<endl;
+	return 0;
+}

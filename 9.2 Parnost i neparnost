@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int broj;
+	cout<<"Unesite broj: ";
+	cin>>broj;
+	
+	if(broj%2==0){
+		cout<<endl<<"Broj je paran."<<endl;
+	}else{
+		cout<<endl<<"Broj je neparan."<<endl;
+	}
+	return 0;
+}

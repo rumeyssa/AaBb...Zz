@@ -1,0 +1,22 @@
+#include <iostream>
+#include <stdlib.h> //biblioteka za srand() i rand()
+#include <time.h>  //biblioteka za time
+using namespace std;
+
+int main(){
+	int broj,a,b,c,S=0,P=1,broj2;
+	srand(time(NULL)); //generiše prvi slučajni broj na osnovu vremena
+	broj = rand()%900+100; //generiše slučajni broj
+	a = broj/100; //cifra stotica
+	b = (broj-100*a)/10; //cifra desetica
+	c = broj%10; //cifra jedinica
+	P = a*b*c;
+	S = a*a+b*b+c*c;
+	broj2 = c*100+b*10+a;
+	cout << "Slucajni broj je: " << broj << endl;
+	cout << "Proizvod cifri je: " << P << endl;
+	cout << "Suma kvadrata cifri je: " << S << endl;
+	cout << "Obrnuti broj je: " << broj2;
+	cout << endl;
+	return 0;
+}

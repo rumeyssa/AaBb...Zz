@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//ispis br. do 100
+
+int main(){
+	for(int i=0;i<=100;i++){
+		
+		cout<<i<<endl;  // vertikalno
+		
+    /*	cout<<i<<", "; //horizontalno
+		cout<<endl;  
+	*/
+	
+	}
+	
+	return 0;
+}

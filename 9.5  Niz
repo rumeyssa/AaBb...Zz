@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+//Unos i ispis zeljenog niza 
+
+int main(){
+	int niz[10];
+	for(int i=1;i<10;i++){
+		cout<<"Unesi "<<i<<". clan: ";
+		cin>>niz[i];
+	}
+	
+	
+	for(int i=1;i<10;i++){
+	
+		cout<<niz[i]<<", ";
+	}
+	cout<<endl; //bez "endl" program ne lici ni na sta (:D)
+	return 0;
+}
